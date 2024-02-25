@@ -1,0 +1,50 @@
+/* Default styles */
+body {
+    background-image: url('ai.jpg');
+    background-size: cover; /* This will ensure the image covers the entire background */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will center the image on the background */
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+main {
+    text-align: center;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover; /* This will ensure the image covers the entire background */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will center the image on the background */
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+
+    main form {
+        display: block;
+    }
+
+    main input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    main button {
+        width: 100%;
+    }
+}

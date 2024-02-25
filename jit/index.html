@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Website</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="login.html" target="_blank">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html" target="_blank">Register</a>
+      </li>
+    </ul>
+  </header>
+
+  <main class="container mt-3">
+    <form class="form-inline"action="https://www.google.com/search" method="get" target="_blank">
+      <div class="input-group mr-2">
+        <select class="custom-select" id="search-type">
+          <option selected>Select Type</option>
+          <option value="option1">JAVASCRIPT</option>
+          <option value="option2">HYPER-TEXT MARKUP LANGUAGE </option>
+          <option value="option3">CASCADIND STYLING SHEET</option>
+          <option value="option4">BOOTSTRAP</option>
+        </select>
+      </div>
+      <input type="text" class="form-control mr-2" placeholder="Search..." id="search-bar">
+      <button  type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </main>
+</body>
+</html>
